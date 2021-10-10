@@ -33,7 +33,7 @@ public class ClientDTO implements Serializable {
 		this.name = entity.getName();
 		this.cpf = entity.getCpf();
 		this.income = entity.getIncome();
-		this.birthDate = entity.getBithDate();
+		this.birthDate = entity.getBirthDate();
 		this.children = entity.getChildren();
 	}
 
@@ -69,11 +69,11 @@ public class ClientDTO implements Serializable {
 		this.income = income;
 	}
 
-	public Instant getBithDate() {
+	public Instant getBirthDate() {
 		return birthDate;
 	}
 
-	public void setBithDate(Instant birthDate) {
+	public void setBirthDate(Instant birthDate) {
 		this.birthDate = birthDate;
 	}
 
